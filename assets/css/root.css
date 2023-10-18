@@ -1,0 +1,151 @@
+:root {
+    /* font size */
+    --small1: 18px;
+    --small2: 15px;
+    --small3: 16px;
+    --medium1: 22px;
+    --large1: 36px;
+
+
+
+    /* color */
+    --white1: #fff;
+    --purple1: #3b2e58;
+    --purple2: #8661C5;
+    --purple-light: #D59DFF;
+    --grey1: #faf9fd;
+    --greybg: #e9e6e5;
+    --greydark: #2e2e2e;
+    --black1: #000;
+    --blue1: #0067B8;
+
+
+
+    /* font-family */
+    --ff-1: 'Nunito', sans-serif;
+
+}
+
+/* font size */
+
+.small1 {
+    font-size: var(--small1);
+}
+
+.small2 {
+    font-size: var(--small2);
+}
+
+.small3 {
+    font-size: var(--small3);
+}
+
+.medium1 {
+    font-size: var(--medium1);
+}
+
+.large1 {
+    font-size: var(--large1);
+}
+
+
+
+/* color */
+.white1 {
+    color: var(--white1);
+}
+
+.grey1 {
+    color: var(--grey1);
+}
+
+.greybg {
+    background-color: var(--greybg);
+}
+
+.greydark {
+    color: var(--greydark);
+}
+
+
+.black1 {
+    color: var(--black1);
+}
+
+.purple1 {
+    color: var(--purple1);
+}
+
+.purple-light {
+    color: var(--purple-light);
+}
+
+.blue1 {
+    color: var(--blue1);
+}
+
+
+/*font-family*/
+
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../font/SegoeUI.ttf');
+}
+
+@font-face {
+    font-family: 'Segoe UI SemiBold';
+    src: url('../font/SegoeUI-SemiBold.woff');
+}
+
+.ff-1 {
+    font-family: 'Segoe UI';
+}
+
+.ff-2 {
+    font-family: 'Segoe UI SemiBold';
+}
+
+/* Root-Media */
+@media (min-width:576px) {
+    :root {
+        /* font size */
+        --small1: 18px;
+        --small2: 22px;
+        --small3: 23px;
+        --large1: 76px;
+    }
+
+}
+
+@media (min-width:768px) {
+    :root {
+        --small3: 19px;
+        --medium1: 30px;
+
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --small3: 23px;
+        --large1: 60px;
+        --medium1: 30px;
+
+    }
+}
+
+@media (min-width:1200px) {
+    :root {
+        --small3: 21px;
+        --large1: 76px;
+        --medium1: 35px;
+
+    }
+}
+
+@media (min-width:1400px) {
+    :root {
+        --small3: 23px;
+    }
+}
