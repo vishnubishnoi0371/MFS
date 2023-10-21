@@ -111,6 +111,11 @@ nav ul li a:hover::before {
     background: linear-gradient(90deg, #3B2E58 0%, #8661C5 100%);
 }
 
+.sec-1-imgs {
+    object-fit: cover;
+    height: 50% !important;
+}
+
 .hero-head {
     max-width: 586px;
 }
@@ -237,10 +242,11 @@ nav ul li a:hover::before {
 .pb-120 {
     padding-bottom: 120px;
 }
+
 /* elipse */
 .elipse-ryt {
     position: absolute;
-    top: 60%;
+    top: -21%;
     right: 0;
 }
 
@@ -386,10 +392,13 @@ footer ul li a::before {
     height: 50px;
 }
 
+.fade-imgs {
+    height: 50%;
+}
 
 /* media */
 
-@media (max-width:992px) {
+@media (max-width:1199.8px) {
     label[id="menuIcon"] {
         width: 30px;
         height: 24px;
@@ -463,12 +472,21 @@ footer ul li a::before {
         height: 50px;
         z-index: 5;
     }
-}
 
 
 @media (min-width:991.7px) {
     .pe-lg-12 {
         padding-right: 12px;
+    }
+    
+    .sec-1-imgs {
+        object-fit: cover;
+        height: 100% !important;
+    }
+
+
+    .fade-imgs {
+        height: 100%;
     }
 
     .pt-btns {
